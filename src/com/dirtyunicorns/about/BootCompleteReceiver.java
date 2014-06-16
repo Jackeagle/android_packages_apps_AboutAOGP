@@ -35,14 +35,14 @@ public class BootCompleteReceiver extends BroadcastReceiver {
 
         SharedPreferences prefs = context.getSharedPreferences(aboutActivity.PREFS_NAME, 0);
 
-        String previousDuVersion = prefs.getString(aboutActivity.DU_VERSION, "0.0.0");
-        String currentDuVersion = Utils.getDuVersion();
+        String previousAogpVersion = prefs.getString(aboutActivity.AOGP_VERSION, "0.0.0");
+        String currentAogpVersion = Utils.getAOGPVersion();
 
-        Log.d(TAG, "Previous DU Version: " + previousDuVersion);
-        Log.d(TAG, "Current DU Version: " + currentDuVersion);
+        Log.d(TAG, "Previous AOGP Version: " + previousAogpVersion);
+        Log.d(TAG, "Current AOGP Version: " + currentAogpVersion);
 
-        if (!currentDuVersion.equals(previousDuVersion)) {
-        //if (currentDuVersion.equals(previousDuVersion)) { //DEBUGGING
+        if (!currentDuVersion.equals(previousAogpVersion)) {
+        //if (currentDuVersion.equals(previousAogpVersion)) { //DEBUGGING
             Log.d(TAG, "Running About Activity");
 
             Intent i = new Intent();

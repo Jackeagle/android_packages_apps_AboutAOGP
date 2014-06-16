@@ -33,11 +33,11 @@ public class AboutFragment extends Fragment {
         View aboutView = inflater.inflate(R.layout.about_fragment, container, false);
 
         TextView aboutTitle = (TextView) aboutView.findViewById(R.id.about_title);
-        String version =  Utils.getDuVersion();
+        String version =  Utils.getAOGPVersion();
         aboutTitle.append(" Dirty Unicorns");
 
         TextView aboutText = (TextView) aboutView.findViewById(R.id.about);
-        aboutText.setText(Utils.readRawFile(AboutActivity.appContext, R.raw.about_dirtyunicorns));
+        aboutText.setText(Utils.readRawFile(AboutActivity.appContext, R.raw.about_aogp));
 
         // Inflate the layout for this fragment
         return aboutView;
