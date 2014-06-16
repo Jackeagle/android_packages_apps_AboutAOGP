@@ -183,7 +183,7 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.chaos_url)));
         startActivity(intent);
     }    
-    public void launchnitin(View view) {
+    public void launchNitin(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.nitin_url)));
