@@ -42,19 +42,6 @@
                 android:paddingBottom="5sp"
                 android:text="@string/testers2" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10sp"
-                android:src="@drawable/jon"
-                android:onClick="launchJon" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10sp"
-                android:src="@drawable/edwin"
-                android:onClick="launchEdwin" />
         </LinearLayout>
 
     </RelativeLayout>

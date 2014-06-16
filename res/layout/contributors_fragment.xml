@@ -70,24 +70,6 @@
                 android:src="@drawable/chaos"
                 android:onClick="launchChaos" />
 
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:padding="10sp"
-                android:src="@drawable/preludedrew"
-                android:onClick="launchPreludedrew" />
-
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:padding="10sp"
-                android:src="@drawable/mat"
-                android:onClick="launchMat" />
-
-            <TextView android:id="@+id/changelog"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="left" />
         </LinearLayout>
 
     </RelativeLayout>
