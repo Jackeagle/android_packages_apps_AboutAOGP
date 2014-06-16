@@ -49,21 +49,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:padding="10dp"
-                android:src="@drawable/twitter"                
-                android:onClick="launchTwitter" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingBottom="5sp"
-                android:textSize="20sp"
-                android:text="@string/twitter" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:padding="10dp"
                 android:src="@drawable/github"                
                 android:onClick="launchGithub" />
 
