@@ -44,7 +44,7 @@ public class AboutActivity extends FragmentActivity {
     private TabsAdapter mTabsAdapter;
 
     public static final String PREFS_NAME = "About";
-    public static final String DU_VERSION = "du_version";
+    public static final String AOGP_VERSION = "aogp_version";
 
     /** Called when the activity is first created. */
     @Override
@@ -62,8 +62,7 @@ public class AboutActivity extends FragmentActivity {
         mTabsAdapter = new TabsAdapter(this, mViewPager);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.about_tab_title),AboutFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.features_tab_title),FeaturesFragment.class, null);
-        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.dirt_tab_title),DirtFragment.class, null);
-        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.maintainers_tab_title),MaintainersFragment.class, null);
+        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.dirt_tab_title),AOGPFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.contributors_tab_title),ContributorsFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.testers_tab_title),TestersFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.social_tab_title),SocialFragment.class, null);
@@ -81,11 +80,11 @@ public class AboutActivity extends FragmentActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
             case R.id.menuitem_exit:
-                String duVersion = Utils.getDuVersion();
+                String AOGPVersion = Utils.getAOGPVersion();
 
                 SharedPreferences prefs = this.getSharedPreferences(PREFS_NAME, 0);
                 SharedPreferences.Editor prefEditor = prefs.edit();
-                prefEditor.putString(DU_VERSION, duVersion);
+                prefEditor.putString(AOGP_VERSION, AOGPVersion);
                 prefEditor.commit();
 
                 finish();
@@ -104,12 +103,6 @@ public class AboutActivity extends FragmentActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.googleplus_url)));
-        startActivity(intent);
-    }
-    public void launchTwitter(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.twitter_url)));
         startActivity(intent);
     }
     public void launchGithub(View view) {
@@ -189,8 +182,7 @@ public class AboutActivity extends FragmentActivity {
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.chaos_url)));
         startActivity(intent);
-    }
-    
+    }    
     public void launchnitin(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
@@ -200,7 +192,7 @@ public class AboutActivity extends FragmentActivity {
 
     public static class TabsAdapter extends FragmentPagerAdapter
     implements ActionBar.TabListener, ViewPager.OnPageChangeListener {
-    	private static final String TAG = "About DirtyUnicorns";
+    	private static final String TAG = "About AOGP";
     	private final Context mContext;
     	private final ActionBar mActionBar;
     	private final ViewPager mViewPager;

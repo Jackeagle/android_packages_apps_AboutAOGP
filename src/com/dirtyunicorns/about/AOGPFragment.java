@@ -25,18 +25,18 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class MaintainersFragment extends Fragment {
+public class AOGPFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View maintainersView = inflater.inflate(R.layout.maintainers_fragment, container, false);
+        View aogpView = inflater.inflate(R.layout.aogp_fragment, container, false);
 
-        TextView maintainersVersion = (TextView) maintainersView.findViewById(R.id.maintainers_version);
-        String version =  Utils.getDuVersion();
-        maintainersVersion.append(" ");
+        TextView AOGPVersion = (TextView) aogpView.findViewById(R.id.aogp_version);
+        String version =  Utils.getAOGPVersion();
+        AOGPVersion.append(" ");
 
         // Inflate the layout for this fragment
-        return maintainersView;
+        return aogpView;
     }
 }

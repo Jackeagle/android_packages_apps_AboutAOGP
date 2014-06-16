@@ -34,35 +34,74 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="5sp"
                 android:textSize="20sp"
-                android:text="@string/maintainers_title" />
+                android:text="@string/dirt_title" />
 
-            <TextView android:id="@+id/maintainers_version"
+            <TextView android:id="@+id/dirt_version"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5sp"
-                android:text="@string/maintainers_version_text" />
+                android:text="@string/dirt_version_text" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10sp"
-                android:src="@drawable/brian"
-                android:onClick="launchBrian" />
+                android:src="@drawable/bret"
+                android:onClick="launchBret" />
 
-            <TextView
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:paddingBottom="5sp"
-                android:text="@string/devices_title" />
+                android:padding="10sp"
+                android:src="@drawable/dk"
+                android:onClick="launchDk" />
 
-            <TextView
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingBottom="5sp"
-                android:textSize="15sp"
-                android:text="@string/brian_devices" />
+                android:padding="10sp"
+                android:src="@drawable/jmz"
+                android:onClick="launchJmz" />
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:src="@drawable/kommy"
+                android:onClick="launchKommy" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:src="@drawable/mazda"
+                android:onClick="launchMazda" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:src="@drawable/mike"
+                android:onClick="launchMike" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:src="@drawable/paul"
+                android:onClick="launchPaul" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:src="@drawable/reduxd"
+                android:onClick="launchReduxd" />
+
+            <TextView android:id="@+id/dirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left" />
         </LinearLayout>
 
     </RelativeLayout>

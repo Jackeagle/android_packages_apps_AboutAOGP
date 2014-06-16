@@ -26,8 +26,8 @@ import java.io.InputStream;
 
 public class Utils {
 
-    public static String getDuVersion() {
-        String version = SystemProperties.get("ro.romstats.name");
+    public static String getAOGPVersion() {
+        String version = SystemProperties.get("ro.aogp.version");
         return version;
     }
 
