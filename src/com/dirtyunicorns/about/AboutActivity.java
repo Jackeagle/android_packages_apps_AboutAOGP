@@ -118,52 +118,52 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.github_url)));
         startActivity(intent);
     }
-    public void launchKenneth(View view) {
+    public void launchKartik(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.kenneth_url)));
+        intent.setData(Uri.parse(getString(R.string.kartik_url)));
         startActivity(intent);
     }
-    public void launchBrian(View view) {
+    public void launchJeremy(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.brian_url)));
+        intent.setData(Uri.parse(getString(R.string.jeremy_url)));
         startActivity(intent);
     }
-    public void launchJosh(View view) {
+    public void launchAshish.B(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.josh_url)));
+        intent.setData(Uri.parse(getString(R.string.ashishb_url)));
         startActivity(intent);
     }
-    public void launchEd(View view) {
+    public void launchAshish.S(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.ed_url)));
+        intent.setData(Uri.parse(getString(R.string.ashishs_url)));
         startActivity(intent);
     }
-    public void launchGreg(View view) {
+    public void launchRutvik(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.greg_url)));
+        intent.setData(Uri.parse(getString(R.string.rutvik_url)));
         startActivity(intent);
     }
-    public void launchBosko(View view) {
+    public void launchKishan(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.bosko_url)));
+        intent.setData(Uri.parse(getString(R.string.kishan_url)));
         startActivity(intent);
     }
-    public void launchEdwin(View view) {
+    public void launchJay(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.edwin_url)));
+        intent.setData(Uri.parse(getString(R.string.jay_url)));
         startActivity(intent);
     }
-    public void launchJon(View view) {
+    public void launchJack(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.jon_url)));
+        intent.setData(Uri.parse(getString(R.string.jack_url)));
         startActivity(intent);
     }
     public void launchAokp(View view) {
@@ -190,70 +190,11 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.chaos_url)));
         startActivity(intent);
     }
-    public void launchPreludedrew(View view) {
+    
+    public void launchnitin(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.preludedrew_url)));
-        startActivity(intent);
-    }
-    public void launchMat(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.mat_url)));
-        startActivity(intent);
-    }
-    public void launchBarry(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.barry_url)));
-        startActivity(intent);
-    }
-    public void launchBret(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.bret_url)));
-        startActivity(intent);
-    }
-    public void launchDk(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.dk_url)));
-        startActivity(intent);
-    }
-    public void launchJmz(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.jmz_url)));
-        startActivity(intent);
-    }
-    public void launchKommy(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.kommy_url)));
-        startActivity(intent);
-    }
-    public void launchMazda(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.mazda_url)));
-        startActivity(intent);
-    }
-    public void launchMike(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.mike_url)));
-        startActivity(intent);
-    }
-    public void launchPaul(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.paul_url)));
-        startActivity(intent);
-    }
-    public void launchReduxd(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.reduxd_url)));
+        intent.setData(Uri.parse(getString(R.string.nitin_url)));
         startActivity(intent);
     }
 
