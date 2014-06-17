@@ -61,14 +61,14 @@
                 android:layout_height="wrap_content"
                 android:padding="10sp"
                 android:src="@drawable/ashishb"
-                android:onClick="launchAshish.B" />
+                android:onClick="launchAshishB" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10sp"
                 android:src="@drawable/ashishs"
-                android:onClick="launchAshish.S" />
+                android:onClick="launchAshishS" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
                 android:src="@drawable/nitin"
                 android:onClick="launchNitin" />
 
-            <TextView android:id="@+id/dirt"
+            <TextView android:id="@+id/aogp_version"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="left" />

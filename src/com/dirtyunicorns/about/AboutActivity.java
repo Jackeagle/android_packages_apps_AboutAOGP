@@ -123,13 +123,13 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.jeremy_url)));
         startActivity(intent);
     }
-    public void launchAshish.B(View view) {
+    public void launchAshishB(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.ashishb_url)));
         startActivity(intent);
     }
-    public void launchAshish.S(View view) {
+    public void launchAshishS(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.ashishs_url)));

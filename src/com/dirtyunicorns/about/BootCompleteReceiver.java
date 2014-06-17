@@ -41,7 +41,7 @@ public class BootCompleteReceiver extends BroadcastReceiver {
         Log.d(TAG, "Previous AOGP Version: " + previousAogpVersion);
         Log.d(TAG, "Current AOGP Version: " + currentAogpVersion);
 
-        if (!currentDuVersion.equals(previousAogpVersion)) {
+        if (!currentAogpVersion.equals(previousAogpVersion)) {
         //if (currentDuVersion.equals(previousAogpVersion)) { //DEBUGGING
             Log.d(TAG, "Running About Activity");
 
