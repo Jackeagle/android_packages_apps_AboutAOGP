@@ -30,7 +30,7 @@
     <string name="contributors_tab_title">Contributors</string>
     <string name="social_tab_title">Social</string>
     <string name="testers_tab_title">Testers</string>
-    <string name="dirt_tab_title">Team AOGP</string>
+    <string name="aogp_tab_title">Team AOGP</string>
 
     <!-- Social -->
     <string name="googleplus_url">https://plus.google.com/u/1/communities/115559086943411204267</string>
@@ -41,8 +41,6 @@
     <!-- Testers -->
     <string name="testers">Official Testers</string>
     <string name="testers2">Listed in no particular order</string>
-    <string name="jon_url">https://plus.google.com/u/0/111260381467471027401</string>
-    <string name="edwin_url">https://plus.google.com/u/0/117003401706323264508</string>
 
     <!-- Contributors -->
     <string name="contributors">Contributors</string>
@@ -53,8 +51,8 @@
     <string name="chaos_url">https://plus.google.com/communities/118345323576530120067</string>
 
     <!-- Team AOGP -->
-    <string name="dirt_title">Team AOGP</string>
-    <string name="dirt_version_text">Inspired Developers</string>
+    <string name="aogp_title">Team AOGP</string>
+    <string name="aogp_version_text">Inspired Developers</string>
     <string name="kartik_url">https://plus.google.com/u/1/107619935962076164449</string>
     <string name="jeremy_url">https://plus.google.com/u/1/118435228746335126314</string>
     <string name="ashishb_url">https://plus.google.com/u/1/+AshishBansal77</string>

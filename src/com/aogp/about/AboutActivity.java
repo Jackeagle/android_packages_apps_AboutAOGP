@@ -62,7 +62,7 @@ public class AboutActivity extends FragmentActivity {
         mTabsAdapter = new TabsAdapter(this, mViewPager);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.about_tab_title),AboutFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.features_tab_title),FeaturesFragment.class, null);
-        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.dirt_tab_title),AOGPFragment.class, null);
+        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.aogp_tab_title),AOGPFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.contributors_tab_title),ContributorsFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.testers_tab_title),TestersFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.social_tab_title),SocialFragment.class, null);
