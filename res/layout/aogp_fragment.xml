@@ -45,63 +45,63 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/kartik"
                 android:onClick="launchKartik" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/jeremy"
                 android:onClick="launchJeremy" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/ashishb"
                 android:onClick="launchAshishB" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/ashishs"
                 android:onClick="launchAshishS" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/rutvik"
                 android:onClick="launchRutvik" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/kishan"
                 android:onClick="launchKishan" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/jay"
                 android:onClick="launchJay" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/jack"
                 android:onClick="launchJack" />
                 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10sp"
+                android:padding="9sp"
                 android:src="@drawable/nitin"
                 android:onClick="launchNitin" />
 
