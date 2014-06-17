@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.about;
+package com.aogp.about;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -25,18 +25,17 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class AOGPFragment extends Fragment {
+public class FeaturesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View aogpView = inflater.inflate(R.layout.aogp_fragment, container, false);
+        View featuresView = inflater.inflate(R.layout.features_fragment, container, false);
 
-        TextView AOGPVersion = (TextView) aogpView.findViewById(R.id.aogp_version);
-        String version =  Utils.getAOGPVersion();
-        AOGPVersion.append(" ");
+        TextView featuresText = (TextView) featuresView.findViewById(R.id.features);
+        featuresText.setText(Utils.readRawFile(AboutActivity.appContext, R.raw.features));
 
         // Inflate the layout for this fragment
-        return aogpView;
+        return featuresView;
     }
 }

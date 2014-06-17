@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.about;
+package com.aogp.about;
 
 import android.content.Context;
 import android.os.SystemProperties;

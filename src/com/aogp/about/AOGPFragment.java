@@ -15,19 +15,28 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.about;
+package com.aogp.about;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
-public class SocialFragment extends Fragment {
+
+public class AOGPFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        View aogpView = inflater.inflate(R.layout.aogp_fragment, container, false);
+
+        TextView AOGPVersion = (TextView) aogpView.findViewById(R.id.aogp_version);
+        String version =  Utils.getAOGPVersion();
+        AOGPVersion.append(" ");
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.social_fragment, container, false);
+        return aogpView;
     }
 }
