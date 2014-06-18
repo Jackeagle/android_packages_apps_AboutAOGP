@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2012 Crossbones Software
- * This code has been modified.  Portions copyright (C) 2013, Dirty Unicorns Project.
+ * This code has been modified.  Portions copyright (C) 2014, AOGP Project.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

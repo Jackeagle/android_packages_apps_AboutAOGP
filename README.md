@@ -2,11 +2,8 @@ About
 =========
 
 Original author: Mike Wielgosz (crossbones ROM)
+Secondary author: Dirty Unicorns Project
 
+Portion Copyright: AOGP Team Project
 
-Modified by me, Alex Cruz aka Mazda...This app has now support for not only DU maintainers but also contributors. 
-It has also been modified for social links and different UI theme.
-
-More features to come as I get more time :)
-
-![ScreenShot](http://s23.postimg.org/7qzynftxn/github.png)
+Part of the code were adapted from Dirty Unicorns Project and CrossBones ROM.Edited by me:Triprex to support AOGP ROM :)
