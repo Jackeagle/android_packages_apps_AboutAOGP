@@ -18,4 +18,5 @@ Copyright (C) 2014  AOGP
 -->
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-	<color name="actionbar_text">#FB4F14</color> 
+	<color name="actionbar_text">#FB4F14</color>
+</resources> 
