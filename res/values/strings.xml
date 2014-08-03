@@ -16,7 +16,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">About AOGP™</string>
+    <string name="app_name">About AOGP</string>
     <string name="about_title">Welcome to</string>
     <string name="features_title">AOGP Features</string>
     <string name="finish_button_text">Finish</string>
