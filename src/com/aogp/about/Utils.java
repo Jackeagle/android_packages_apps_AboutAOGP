@@ -18,7 +18,6 @@
 package com.aogp.about;
 
 import android.content.Context;
-import android.os.SystemProperties;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -27,7 +26,7 @@ import java.io.InputStream;
 public class Utils {
 
     public static String getAOGPVersion() {
-        String version = SystemProperties.get("ro.aogp.version");
+        String version = "1.0";
         return version;
     }
 
